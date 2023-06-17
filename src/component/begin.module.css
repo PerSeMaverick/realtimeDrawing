@@ -1,0 +1,37 @@
+.contain {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.main {
+  width: 500px;
+}
+.split {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgba(161, 161, 161, 0.338);
+}
+.btns {
+  padding: 12px 30px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.btns:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  transition: 0.2s;
+}
+.btns:disabled,
+.btns:focus:disabled,
+.btns:hover:disabled,
+.btns:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}

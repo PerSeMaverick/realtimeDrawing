@@ -1,0 +1,86 @@
+.chatbox {
+  border-radius: 15px;
+}
+
+.chatting {
+  display: flex;
+  flex-direction: column;
+  place-content: flex-end;
+}
+.warnnig {
+  color: rgba(0, 0, 0, 0.428);
+  background-color: rgba(158, 158, 158, 0.174);
+  width: 260px;
+  margin-top: 20px;
+  margin-left: 30px;
+  text-align: center;
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.bubbles {
+  height: 451px;
+  overflow: scroll;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(166, 166, 166, 0.345);
+  border-radius: 15px 15px 0px 0px;
+  background-color: white;
+  box-shadow: 5px 5px 15px -10px inset;
+  /* justify-content: flex-end; */
+  /* place-content: flex-end; */
+}
+
+.bubble,
+.bubbleMe {
+  width: fit-content;
+  max-width: 140px;
+  margin: 6px 8px;
+  padding: 5px 7px;
+  border-radius: 8px;
+  color: #ffdfb9;
+  background-color: #a4193d;
+}
+.bubbleMe {
+  align-self: flex-end;
+  color: #a4193d;
+  background-color: #ffdfb9;
+}
+.send {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 0px 7px;
+  padding: 18px 5px;
+}
+.send input {
+  width: 80%;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-size: medium;
+}
+.send input:focus {
+  outline: none;
+  box-shadow: 0 0 15px #ffffff;
+}
+.send button {
+  width: 12%;
+  border: 1px solid white;
+  border-radius: 10px;
+  padding: 5px;
+  color: aliceblue;
+  background-color: transparent;
+  margin-left: 3px;
+  font-size: large;
+  transition: 0.2s;
+}
+.send button:hover {
+  cursor: pointer;
+  background-color: white;
+  color: black;
+  transition: 0.2s;
+}

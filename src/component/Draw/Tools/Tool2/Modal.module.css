@@ -1,0 +1,95 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 20;
+  background-color: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: fixed;
+  top: 20vh;
+  background-color: white;
+  padding: 1rem;
+  border-radius: 14px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+  z-index: 30;
+  animation: slide-down 300ms ease-out forwards;
+  text-align: center;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+.users {
+  border: 1px solid grey;
+  border-radius: 15px;
+  padding: 10px 50px;
+  background-color: rgb(214, 214, 214);
+}
+.user {
+  margin-top: 10px;
+  font-size: larger;
+}
+
+.invite {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-weight: bold;
+}
+.inviteLink {
+  height: 30px;
+  width: 300px;
+  border-radius: 15px;
+}
+.invite > p {
+  border-top: 1px dashed grey;
+  padding: 15px;
+}
+
+.btns {
+  padding: 12px 30px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+.btns:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+  transition: 0.2s;
+}
+.btns:disabled,
+.btns:focus:disabled,
+.btns:hover:disabled,
+.btns:active:disabled {
+  background: #ccc;
+  border-color: #ccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    width: 40rem;
+    left: calc(50% - 20rem);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-3rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
