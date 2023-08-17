@@ -61,3 +61,4 @@ MIT &copy; [NoHack](mailto:lbjp114@gmail.com)
 [js]: /icon/javascript.svg
 [react]: /icon/react.svg
 [node]: /icon/node.svg
+[mongodb]: /icon/mongodb.svg
