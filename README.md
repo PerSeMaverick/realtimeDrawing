@@ -2,7 +2,7 @@
 
 <p align="center">
   <br>
-    <img width="759" alt="스크린샷 2023-08-17 20 26 13" src="https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/cf8f0452-040d-4939-b38b-d22e5bdc3afb">  <br>
+    <img width="759" alt="스크린샷 2023-08-17 20 26 13" src="https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/cf8f0452-040d-4939-b38b-d22e5bdc3afb">
 </p>
 
 <p align="center">
@@ -15,7 +15,7 @@
 프로젝트 개요/동기<br>
 NodeJS 강의 수강 완료 후 앞서 배운 것들을(HTML, CSS, JS, React, NodeJS(express), mongoDB) 활용해보고<br>
 canvas, 마우스 위치 이벤트, express라이브러리, socket.io, mongoDB 기술들을 익히기 위해 시작.
-  
+
 ~~~
 💡 컴포넌트 설계
 App컴포넌트(다크모드 지원)
@@ -39,11 +39,11 @@ App컴포넌트(다크모드 지원)
 유저가 새로운 방을 생성할 수 있기 때문이다.
 
     💡방 생성, 참가
-    방 생성하기 버튼으로 form 제출 후(fe)
+    "방 생성하기" 버튼으로 form 제출 후(fe)
     - 제출된 id를 가진 방이 존재하는지 확인
         - 방 id가 중복되는 경우 아이디 다시 입력
         - 해당 id가 존재하지 않으면(server,db) ⇒ 해당 id로 새로운 방 생성, 닉네임 저장(db, fe).
-    방 참가하기 버튼으로 form 제출 후(fe)
+    "방 참가하기" 버튼으로 form 제출 후(fe)
     - 입력한 방 id가 존재할 경우(server,db) ⇒ 해당 방으로 입장(fe).
     - 해당 id가 존재하지 않으면(server,db) ⇒ 아이디 다시 입력
 
