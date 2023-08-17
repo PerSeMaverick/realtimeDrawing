@@ -20,9 +20,9 @@ GIF Images
 
 ## 사용 기술 스택
 
-|   Html  |  CSS   | JavaScript |   React   |   Node  |
-| :-----: | :----: | :--------: |  :------: | :-----: |
-| ![html] | ![css] |   ![js]    |  ![react] | ![node] |
+|   Html  |  CSS   | JavaScript |   React   |   Node  |    MongoDB   |
+| :-----: | :----: | :--------: |  :------: | :-----: |    :-----:   |
+| ![html] | ![css] |   ![js]    |  ![react] | ![node] |  ![mongodb]  |
 
 <br>
 
