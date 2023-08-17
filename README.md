@@ -2,8 +2,7 @@
 
 <p align="center">
   <br>
-<!--   <img/> -->
-  <br>
+    <img width="759" alt="스크린샷 2023-08-17 20 26 13" src="https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/cf8f0452-040d-4939-b38b-d22e5bdc3afb">  <br>
 </p>
 
 <p align="center">
@@ -13,8 +12,9 @@
 ## 프로젝트 소개
 
 <p align="justify">
-- 프로젝트 개요/동기
-  - NodeJS 수강 완료 후 앞서 배운 것들(HTML, CSS, JS, React, NodeJS, express, mongoDB) 활용
+프로젝트 개요/동기<br>
+NodeJS 강의 수강 완료 후 앞서 배운 것들을(HTML, CSS, JS, React, NodeJS(express), mongoDB) 활용해보고<br>
+canvas, 마우스 위치 이벤트, express라이브러리, socket.io, mongoDB 기술들을 익히기 위해 시작.
   
 ~~~
 💡 컴포넌트 설계
@@ -25,7 +25,7 @@ App컴포넌트(다크모드 지원)
     - 방입장, 방 만들기(react router)
 - 그림판 컴포넌트(격자 표시)
     - 그림판(socket.io)
-    - **그림도구 컴포넌트**
+    - 그림도구 컴포넌트
         - 펜, 지우개, 펜 두께, 색 고르기
         - 사진 업로드(사진 위에 그림 가능)
         - 그림 저장, 방 나가기, **초대하기**
@@ -71,7 +71,6 @@ App컴포넌트(다크모드 지원)
 
 <br>
 
-
 ## 구현 기능
 
 ### 기능 1 - 실시간 그림 공유 기능
@@ -93,6 +92,8 @@ App컴포넌트(다크모드 지원)
 <br>
 
 ## 외부 리소스, 라이브러리 정보
+NodeJS(express)<br>
+Socket.io<br>
 
 <!-- ## 라이센스
 
