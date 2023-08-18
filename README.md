@@ -92,7 +92,7 @@ App컴포넌트(다크모드 지원)
 <br>
 
 ## 외부 리소스, 라이브러리 정보
-NodeJS(express)<br>
+Express<br>
 Socket.io<br>
 Reduxjs/toolkit<br>
 axios<br>
