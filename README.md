@@ -94,6 +94,10 @@ App컴포넌트(다크모드 지원)
 ## 외부 리소스, 라이브러리 정보
 NodeJS(express)<br>
 Socket.io<br>
+Reduxjs/toolkit<br>
+axios<br>
+styled-component<br>
+mui
 
 <!-- ## 라이센스
 
