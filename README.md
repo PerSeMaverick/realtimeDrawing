@@ -3,8 +3,8 @@
 <p align="center">
   <br>
     <img width="759" alt="스크린샷 2023-08-17 20 26 13" src="https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/cf8f0452-040d-4939-b38b-d22e5bdc3afb">
+    <img width="759" alt="스크린샷 2023-09-01 10 50 56" src="https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/3d5b5a48-e42c-4724-a946-86697876554b">
 </p>
-
 <p align="center">
   GIF Images
 </p>
@@ -94,10 +94,10 @@ App컴포넌트(다크모드 지원)
 ## 외부 리소스, 라이브러리 정보
 Express<br>
 Socket.io<br>
-Reduxjs/toolkit<br>
+Redux/toolkit<br>
 axios<br>
 styled-component<br>
-mui
+Mui
 
 <!-- ## 라이센스
 
