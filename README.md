@@ -74,6 +74,7 @@ App컴포넌트(다크모드 지원)
 ## 구현 기능
 
 ### 기능 1 - 실시간 그림 공유 기능
+https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/fe7c9f6e-2099-4a99-9923-b8d06dab54b3
 
 ### 기능 2 - 그림 도구(색, 지우개, 두께)
 
