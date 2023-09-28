@@ -71,7 +71,11 @@ App컴포넌트(다크모드 지원)
 
 <br>
 
-![project6아키텍쳐](https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/d71a7348-5020-4f26-9912-ba6e1a780dd5)
+<p align="center">
+  
+  <img src = "https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/d71a7348-5020-4f26-9912-ba6e1a780dd5"/>
+
+</p>
 
 
 ## 구현 기능
