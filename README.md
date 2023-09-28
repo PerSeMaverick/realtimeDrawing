@@ -73,19 +73,32 @@ App컴포넌트(다크모드 지원)
 
 ## 구현 기능
 
-### 기능 1 - 실시간 그림 공유 기능
-https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/fe7c9f6e-2099-4a99-9923-b8d06dab54b3
+### 기능 1 - 방 생성, 참가
+https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/f71cace2-f84b-4348-adc1-27f558dd35ae
 
-### 기능 2 - 그림 도구(색, 지우개, 두께)
+<br>
+
+### 기능 2 - 실시간 그림 공유 기능, 그림 도구(색, 지우개, 두께, 사진 업로드, 저장)
+https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/fdbf0394-70ee-4ca4-bf59-845f69ec99e9
+
+https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/d6e5891e-bfeb-428a-b159-6d7ce6bb9864
+
+<br>
 
 ### 기능 3 - 채팅
+https://github.com/PerSeMaverick/realtimeDrawing/assets/104728148/9a0624b2-9c30-4a3d-b09a-1a824379181d
+
 
 <br>
 
 ## 배운 점 & 아쉬운 점
 
 <p align="justify">
-
+  1. CORS에러에 대해 좀 더 확실히 공부해야겠다고 느꼈음.<br>
+  2. 아직 CSS가 익숙하지 않아 반응형으로 만들지 못했다. CSS공부를 한참은 더 해야한다.<br>
+  3. 채팅시 스크롤이 자동으로 마지막 메세지를 보여주는 것은 CSS만으로 안된다는 것을 몰랐었는데 새로알게 됨.<br>
+  4. 유저 두명이서 그림을 공유하는데 버벅임이 살짝 있었다. 트래픽이 매우많은 서비스들은 어떻게 하는지 공부해봐야겠음.<br>
+  5. 리엑트는 쉬운 듯 하면서도 아렵다. 조금만 복잡해지면 뒤엉켜버려서 파일 정리나 주석 처리를 반드시 해놓아야 한다. 미래의 나를 위해서라도
 </p>
 
 <br>
